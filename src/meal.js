@@ -1,6 +1,6 @@
 function nameMenuItem(name) {
   return `Delicious ${name}`;
-};
+}
 
 function createMenuItem(name, price, type) {
   var menuItem = {
@@ -9,8 +9,8 @@ function createMenuItem(name, price, type) {
     type: type,
   }
 
-  return menuItem
-};
+  return menuItem;
+}
 
 function addIngredients(ingredient1, ingredients) {
   if (ingredients.includes(ingredient1)) {
@@ -39,7 +39,7 @@ function createRecipe(title,ingredients,menuItemType) {
     ingredients: ingredients,
     type: menuItemType,
   }
-  
+
   return recipe
 };
 
